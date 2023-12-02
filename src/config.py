@@ -5,8 +5,8 @@ from vkbottle import Bot, CtxStorage
 from vkbottle.framework.labeler import BotLabeler
 
 load_dotenv()
-TOKEN = os.getenv('TOKEN')
-ADMIN_ID = os.getenv('ADMIN_ID')
+TOKEN = os.getenv('vk1.a.2L7_D0gncw08Ux7OXSOp8sYmezacEgDNI1_TMtpIvLjk9-KMBi8A1VeFwY83Dt0MV4XCWEVixdMpX08JhTdSsvGbF6UUfVGMBBO4YsRQrmtaWGdjz6_J3rlatARhOibRx3IsUBIXiwJHBTcsBdcCBY_qsOYe34x4VMjEgfHJAdrzhSAcaImK8EFlW4pR0sbdJKuKW2DtelwdpveZTpdAHA')
+ADMIN_ID = os.getenv('677016482')
 
 labeler = BotLabeler()
 bot = Bot(
